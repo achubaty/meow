@@ -1,6 +1,4 @@
-# meow
-
-## Get random pictures of cats.
+# `meow`: get random pictures of cats.
 
 This package doesn't do much, but it's adorable:
 
