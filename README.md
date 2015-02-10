@@ -1,6 +1,4 @@
-# puRRR
-
-## Get random pictures of cats.
+# puRRR: get random pictures of cats.
 
 This package doesn't do much, but it's adorable:
 
