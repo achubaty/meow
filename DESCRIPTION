@@ -1,8 +1,8 @@
-Package: puRRR
+Package: meow
 Type: Package
 Title: Get random pictures of cats.
 Description: Queries http://thecatapi.com for cute cat photos and displays them in yor R session. Meow!
-Version: 0.1
+Version: 0.1.1
 Date: 2015-02-09
 Authors@R: c(
     person(c("Alex", "M"), "Chubaty",

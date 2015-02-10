@@ -1,4 +1,4 @@
-# puRRR
+# meow
 
 ## Get random pictures of cats.
 
@@ -10,8 +10,8 @@ Use `meow()` to fetch a random cat photo from http://thecatapi.com plot it in yo
 
 ### Installation
 
-    devtools::install_github("achubaty/puRRR")
+    devtools::install_github("achubaty/meow")
 
 ### Reporting Bugs
 
-https://github.com/achubaty/puRRR/issues
+https://github.com/achubaty/meow/issues
