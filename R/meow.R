@@ -1,5 +1,5 @@
 #
-#  puRRR by Alex M Chubaty and Kiri Whan
+#  meow by Alex M Chubaty and Kiri Whan
 #  Copyright (C) 2015
 #
 
@@ -11,10 +11,10 @@
 #'
 #' Queries \url{http://thecatapi.com} for cute cat photos and displays them in yor R session.
 #'
-#' Bug reports: https://github.com/achubaty/puRRR/issues
+#' Bug reports: https://github.com/achubaty/meow/issues
 #'
-#' @name puRRR-package
-#' @aliases puRRR purrr-package
+#' @name meow-package
+#' @aliases meow meow-package
 #' @docType package
 #' @author Alex M. Chubaty \email{alex.chubaty@@gmail.com}
 #' @author Kiri Whan\email{kiriwhan@@gmail.com}
