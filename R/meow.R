@@ -14,7 +14,6 @@
 #' Bug reports: https://github.com/achubaty/meow/issues
 #'
 #' @name meow-package
-#' @aliases meow meow-package
 #' @docType package
 #' @author Alex M. Chubaty \email{alex.chubaty@@gmail.com}
 #' @author Kiri Whan\email{kiriwhan@@gmail.com}
@@ -40,7 +39,6 @@ NULL
 #' meow()
 #'
 meow <- function() {
-
   # get cat images
   url <- paste0("http://thecatapi.com/api/images/get?format=src&type=jpg&size=med")
 

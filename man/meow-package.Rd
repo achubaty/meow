@@ -2,7 +2,6 @@
 % Please edit documentation in R/meow.R
 \docType{package}
 \name{meow-package}
-\alias{meow}
 \alias{meow-package}
 \title{Get random pictures of cats. Meow!}
 \description{
