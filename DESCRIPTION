@@ -2,7 +2,7 @@ Package: meow
 Type: Package
 Title: Get Random Pictures of Cats
 Description: Queries http://thecatapi.com for cute cat photos and displays them in yor R session. Meow!
-Version: 0.1.2.9000
+Version: 0.1.3.9000
 Date: 2015-05-13
 Authors@R: c(
     person(c("Alex", "M"), "Chubaty",
