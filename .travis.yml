@@ -1,0 +1,36 @@
+# Sample .travis.yml for R projects.
+#
+# See README.md for instructions, or for more configuration options,
+# see the wiki:
+#   https://github.com/craigcitro/r-travis/wiki
+
+language: r
+
+sudo: required
+
+r_check_args: "--as-cran"
+
+warnings_are_errors: true
+
+apt_packages:
+  - curl
+  - latex-xcolor
+
+r_binary_packages:
+  - jpeg
+
+r_github_packages:
+  - jimhester/covr
+
+after_success:
+  - Rscript -e 'library(covr); coveralls()'
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+branches:
+  only:
+    - master
+    - development
