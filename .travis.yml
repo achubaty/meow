@@ -12,6 +12,10 @@ r_check_args: "--as-cran"
 
 warnings_are_errors: true
 
+apt_packages:
+  - curl
+  - latex-xcolor
+
 r_binary_packages:
   - jpeg
 
