@@ -26,9 +26,10 @@ NULL
 #'
 #' Downloads and plots a random cat image (jpg) from \url{http://thecatapi.com}.
 #'
-#' @return Nothing returned. Invoked for its side effect of displaying a cat picture.
+#' @return Invisibly returns logical, \code{TRUE} indicating success.
+#'         Invoked for its side effect of displaying a cat picture.
 #'
-#' @import jpeg
+#' @importFrom jpeg readJPEG
 #' @export
 #' @docType methods
 #' @rdname meow-method
@@ -42,13 +43,15 @@ meow <- function() {
   # get cat images
   url <- paste0("http://thecatapi.com/api/images/get?format=src&type=jpg&size=med")
 
-  # download and plot cat
-  z <- tempfile()
-  download.file(url, z, quiet=TRUE, mode="wb")
-  pic <- readJPEG(z)
+  # download and plot the cat
+  tmp <- tempfile()
+  dl_status <- download.file(url, tmp, quiet=TRUE, mode="wb")
+  pic <- jpeg::readJPEG(tmp)
   plot(1, type="n", xlim=c(0, 1), ylim=c(0, 1), bty="n", xaxt="n", yaxt="n",
        xlab="", ylab="")
-  rasterImage(pic, 0, 0, 1, 1)
-  file.remove(z)
-  return(invisible())
+  graphics::rasterImage(pic, 0, 0, 1, 1)
+  rm_status <- file.remove(tmp)
+
+  status <- all(!as.logical(dl_status), rm_status)
+  return(invisible(status))
 }
