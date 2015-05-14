@@ -1,4 +1,4 @@
-# `meow`: get random pictures of cats.
+# `meow`: get random pictures of cats
 
 -----
 
