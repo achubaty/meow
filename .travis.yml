@@ -6,17 +6,26 @@
 
 language: r
 
-sudo: required
+r:
+  - oldrel
+  - release
+  - devel
+
+cache: packages
 
 r_check_args: "--as-cran"
 
 warnings_are_errors: true
 
-apt_packages:
-  - curl
-  - latex-xcolor
+addons:
+  apt:
+    packages:
+      - curl
 
-r_binary_packages:
+before_install:
+  - tlmgr install xcolor
+
+r_packages:
   - jpeg
 
 r_github_packages:
