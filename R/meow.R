@@ -29,7 +29,9 @@ NULL
 #' @return Invisibly returns logical, \code{TRUE} indicating success.
 #'         Invoked for its side effect of displaying a cat picture.
 #'
+#' @importFrom graphics plot
 #' @importFrom jpeg readJPEG
+#' @importFrom utils download.file
 #' @export
 #' @docType methods
 #' @rdname meow-method
