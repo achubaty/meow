@@ -1,6 +1,6 @@
 #
 #  meow by Alex M Chubaty and Kiri Whan
-#  Copyright (C) 2015
+#  Copyright (C) 2015-2016
 #
 
 
@@ -47,10 +47,11 @@ meow <- function() {
 
   # download and plot the cat
   tmp <- tempfile()
-  dl_status <- download.file(url, tmp, quiet=TRUE, mode="wb")
+  dl_status <- download.file(url, tmp, quiet = TRUE, mode = "wb")
+
   pic <- jpeg::readJPEG(tmp)
-  plot(1, type="n", xlim=c(0, 1), ylim=c(0, 1), bty="n", xaxt="n", yaxt="n",
-       xlab="", ylab="")
+  plot(1, type = "n", xlim = c(0, 1), ylim = c(0, 1), bty = "n",
+       xaxt = "n", yaxt = "n", xlab = "", ylab = "")
   graphics::rasterImage(pic, 0, 0, 1, 1)
   rm_status <- file.remove(tmp)
 
