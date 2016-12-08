@@ -1,3 +1,4 @@
 test_that("test meow success", {
-  expect_true(meow())
+  success <- suppressWarnings(tryCatch(meow(), error = function(e) meow()))
+  expect_true(success)
 })

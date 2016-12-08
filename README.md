@@ -12,7 +12,15 @@ Use `meow()` to fetch a random cat photo from http://thecatapi.com plot it in yo
 
 ### Installation
 
-    devtools::install_github("achubaty/meow")
+```r
+devtools::install_github("achubaty/meow")
+```
+
+### Usage
+
+```r
+meow::meow()
+```
 
 ### Reporting Bugs
 
