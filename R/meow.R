@@ -29,14 +29,11 @@ NULL
 #' @return Invisibly returns logical, \code{TRUE} indicating success.
 #'         Invoked for its side effect of displaying a cat picture.
 #'
+#' @author Alex Chubaty and Kiri Whan
+#' @export
 #' @importFrom graphics plot
 #' @importFrom jpeg readJPEG
 #' @importFrom utils download.file
-#' @export
-#' @docType methods
-#' @rdname meow-method
-#'
-#' @author Alex Chubaty and Kiri Whan
 #'
 #' @examples
 #' meow()
@@ -47,7 +44,7 @@ meow <- function() {
 
   # download and plot the cat
   tmp <- tempfile()
-  dl_status <- download.file(url, tmp, quiet = TRUE, mode = "wb")
+  dl_status <- utils::download.file(url, tmp, quiet = TRUE, mode = "wb")
 
   pic <- jpeg::readJPEG(tmp)
   plot(1, type = "n", xlim = c(0, 1), ylim = c(0, 1), bty = "n",

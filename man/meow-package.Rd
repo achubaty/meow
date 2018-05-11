@@ -15,4 +15,3 @@ Alex M. Chubaty \email{alex.chubaty@gmail.com}
 Kiri Whan\email{kiriwhan@gmail.com}
 }
 \keyword{package}
-
