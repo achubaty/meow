@@ -1,9 +1,7 @@
 #
 #  meow by Alex M Chubaty and Kiri Whan
-#  Copyright (C) 2015-2016
+#  Copyright (C) 2015-2020
 #
-
-
 
 #' Get random pictures of cats. Meow!
 #'
@@ -11,12 +9,12 @@
 #'
 #' Queries \url{http://thecatapi.com} for cute cat photos and displays them in yor R session.
 #'
-#' Bug reports: https://github.com/achubaty/meow/issues
+#' Bug reports: \url{https://github.com/achubaty/meow/issues}
 #'
 #' @name meow-package
 #' @docType package
 #' @author Alex M. Chubaty \email{alex.chubaty@@gmail.com}
-#' @author Kiri Whan\email{kiriwhan@@gmail.com}
+#' @author Kiri Whan \email{kiriwhan@@gmail.com}
 #' @keywords package
 NULL
 

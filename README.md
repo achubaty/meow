@@ -2,7 +2,10 @@
 
 -----
 
-[![Build Status](https://travis-ci.org/achubaty/meow.svg?branch=master)](https://travis-ci.org/achubaty/meow) [![Coverage Status](https://coveralls.io/repos/achubaty/meow/badge.svg?branch=master)](https://coveralls.io/r/achubaty/meow?branch=master)
+<!-- badges: start -->
+[![R build status](https://github.com/achubaty/meow/workflows/R-CMD-check/badge.svg)](https://github.com/achubaty/meow/actions)
+[![Codecov test coverage](https://codecov.io/gh/achubaty/meow/branch/master/graph/badge.svg)](https://codecov.io/gh/achubaty/meow?branch=master)
+<!-- badges: end -->
 
 This package doesn't do much, but it's adorable:
 
@@ -24,4 +27,4 @@ meow::meow()
 
 ### Reporting Bugs
 
-https://github.com/achubaty/meow/issues
+<https://github.com/achubaty/meow/issues>

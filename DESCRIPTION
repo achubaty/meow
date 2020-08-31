@@ -2,8 +2,8 @@ Package: meow
 Type: Package
 Title: Get Random Pictures of Cats
 Description: Queries http://thecatapi.com for cute cat photos and displays them in yor R session. Meow!
-Version: 0.1.5
-Date: 2018-05-11
+Version: 0.1.6
+Date: 2020-08-31
 Authors@R: c(
     person(c("Alex", "M"), "Chubaty", email = "alex.chubaty@gmail.com", role = c("aut", "cre")),
     person("Kiri", "Whan", email = "kiriwhan@gmail.com", role = c("aut"))
@@ -18,5 +18,6 @@ Imports:
     jpeg,
     utils
 Suggests:
+    covr,
     testthat
 RoxygenNote: 6.0.1
