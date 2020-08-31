@@ -9,9 +9,9 @@
 
 This package doesn't do much, but it's adorable:
 
-![](http://thecatapi.com/api/images/get?format=src&type=jpg&size=med)
+![](https://thecatapi.com/api/images/get?format=src&type=jpg&size=med)
 
-Use `meow()` to fetch a random cat photo from http://thecatapi.com plot it in yor R session. Meow!
+Use `meow()` to fetch a random cat photo from <https://thecatapi.com> plot it in your R session. Meow!
 
 ### Installation
 

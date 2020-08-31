@@ -8,7 +8,7 @@ Authors@R: c(
     person(c("Alex", "M"), "Chubaty", email = "alex.chubaty@gmail.com", role = c("aut", "cre")),
     person("Kiri", "Whan", email = "kiriwhan@gmail.com", role = c("aut"))
   )
-URL: http://github.com/achubaty/meow
+URL: https://github.com/achubaty/meow
 BugReports: https://github.com/achubaty/meow/issues
 License: GPL
 Depends:

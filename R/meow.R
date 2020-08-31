@@ -5,9 +5,7 @@
 
 #' Get random pictures of cats. Meow!
 #'
-#' @description
-#'
-#' Queries \url{http://thecatapi.com} for cute cat photos and displays them in yor R session.
+#' Queries \url{https://thecatapi.com} for cute cat photos and displays them in your R session.
 #'
 #' Bug reports: \url{https://github.com/achubaty/meow/issues}
 #'
@@ -22,7 +20,7 @@ NULL
 
 #' Download and display a random picture of a cat.
 #'
-#' Downloads and plots a random cat image (jpg) from \url{http://thecatapi.com}.
+#' Downloads and plots a random cat image (jpg) from \url{https://thecatapi.com}.
 #'
 #' @return Invisibly returns logical, \code{TRUE} indicating success.
 #'         Invoked for its side effect of displaying a cat picture.
@@ -38,7 +36,7 @@ NULL
 #'
 meow <- function() {
   # get cat images
-  url <- paste0("http://thecatapi.com/api/images/get?format=src&type=jpg&size=med")
+  url <- paste0("https://thecatapi.com/api/images/get?format=src&type=jpg&size=med")
 
   # download and plot the cat
   tmp <- tempfile()
