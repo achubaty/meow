@@ -1,35 +1,12 @@
-#
-#  meow by Alex M Chubaty and Kiri Whan
-#  Copyright (C) 2015-2020
-#
-
-#' Get random pictures of cats. Meow!
-#'
-#' Queries \url{https://thecatapi.com} for cute cat photos and displays them in your R session.
-#'
-#' Bug reports: \url{https://github.com/achubaty/meow/issues}
-#'
-#' @name meow-package
-#' @docType package
-#' @author Alex M. Chubaty \email{alex.chubaty@@gmail.com}
-#' @author Kiri Whan \email{kiriwhan@@gmail.com}
-#' @keywords package
-NULL
-
-
-
 #' Download and display a random picture of a cat.
 #'
-#' Downloads and plots a random cat image (jpg) from \url{https://thecatapi.com}.
+#' Downloads and plots a random cat image (jpg) from <https://thecatapi.com>.
 #'
-#' @return Invisibly returns logical, \code{TRUE} indicating success.
+#' @return Invisibly returns logical, `TRUE` indicating success.
 #'         Invoked for its side effect of displaying a cat picture.
 #'
 #' @author Alex Chubaty and Kiri Whan
 #' @export
-#' @importFrom graphics plot
-#' @importFrom jpeg readJPEG
-#' @importFrom utils download.file
 #'
 #' @examples
 #' meow()

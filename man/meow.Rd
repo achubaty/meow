@@ -8,10 +8,10 @@ meow()
 }
 \value{
 Invisibly returns logical, \code{TRUE} indicating success.
-        Invoked for its side effect of displaying a cat picture.
+Invoked for its side effect of displaying a cat picture.
 }
 \description{
-Downloads and plots a random cat image (jpg) from \url{http://thecatapi.com}.
+Downloads and plots a random cat image (jpg) from \url{https://thecatapi.com}.
 }
 \examples{
 meow()
